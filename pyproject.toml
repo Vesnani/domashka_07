@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "domashka-07"
+version = "0.1.0"
+description = ""
+authors = ["Vesnani <132687769+Vesnani@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "domashka_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.19"
+faker = "^19.3.0"
+alembic = "^1.11.2"
+psycopg2 = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
